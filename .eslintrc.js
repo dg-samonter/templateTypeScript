@@ -27,11 +27,18 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    "prettier/prettier": ["error", { "singleQuote": true }]
-  },
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js",".tsx", ".jsx"] }],
+    '@typescript-eslint/explicit-function-return-type': ['warn', { 
+      allowExpressions: true, 
+      "allowTypedFunctionExpressions":true
+    }]
+    },
   settings: {
     'import/resolver': {
       "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
         "moduleDirectory": ["node_modules", "src/"]
       }
     }
