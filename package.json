@@ -117,6 +117,11 @@
     "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
+      "^views/(.*)$": "/src/views/$1",
+      "^components/(.*)$": "/src/components/$1",
+      "^store/(.*)$": "/src/store/$1",
+      "^apollo/(.*)$": "/src/apollo/$1",
+      "^assets/(.*)$": "/src/assets/$1",
       "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
     },
     "moduleFileExtensions": [

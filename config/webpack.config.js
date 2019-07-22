@@ -276,6 +276,7 @@ module.exports = function(webpackEnv) {
           'views': path.resolve(__dirname, '../src/views'),
           'store': path.resolve(__dirname, '../src/store'),
           'assets': path.resolve(__dirname, '../src/assets'),
+          'apollo': path.resolve(__dirname, '../src/apollo'),
   
           'react-native': 'react-native-web'
         },
