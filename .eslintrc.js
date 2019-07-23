@@ -32,7 +32,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': ['warn', { 
       allowExpressions: true, 
       "allowTypedFunctionExpressions":true
-    }]
+    }],
+    "import/no-extraneous-dependencies": [ "error", { "packageDir": "./" } ]
     },
   settings: {
     'import/resolver': {
