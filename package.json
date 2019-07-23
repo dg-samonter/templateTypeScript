@@ -156,6 +156,10 @@
       "react-app"
     ]
   },
+  "coverageReporters": [
+    "lcov",
+    "text"
+  ],
   "devDependencies": {
     "@babel/plugin-transform-react-jsx-source": "^7.5.0",
     "@types/enzyme": "^3.10.3",

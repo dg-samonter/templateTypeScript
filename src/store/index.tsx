@@ -6,7 +6,7 @@ const rootReducer = (state = {}) => {
   return state
 }
 
-export default function(initialState = []) {
+const configureStore = (initialState = []) => {
   const store = createStore(
     rootReducer,
     initialState,
@@ -14,3 +14,5 @@ export default function(initialState = []) {
   )
   return store
 }
+
+export default configureStore
