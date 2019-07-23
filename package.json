@@ -101,6 +101,10 @@
       "!<rootDir>/src/index.tsx",
       "!<rootDir>/src/serviceWorker.ts"
     ],
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
@@ -155,13 +159,6 @@
     "presets": [
       "react-app"
     ]
-  },
-  "coverageReporters": [
-    "lcov",
-    "text"
-  ],
-  "jest-junit": {
-    "output": "tests/test.junit.xml"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx-source": "^7.5.0",
