@@ -160,6 +160,9 @@
     "lcov",
     "text"
   ],
+  "jest-junit": {
+    "output": "tests/test.junit.xml"
+  },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx-source": "^7.5.0",
     "@types/enzyme": "^3.10.3",
